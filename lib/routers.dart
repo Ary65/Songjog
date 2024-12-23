@@ -57,7 +57,7 @@ final GoRouter router = GoRouter(
               path: '/b',
               pageBuilder: (context, state) =>
                   buildFadeTransitionPage(context, state, const HomeScreen()),
-              routes: <RouteBase>[
+              routes: const <RouteBase>[
                 // GoRoute(
                 //   path: 'sub-cat',
                 //   pageBuilder: (context, state) {

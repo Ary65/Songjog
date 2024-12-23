@@ -27,7 +27,7 @@ class _MyAppState extends ConsumerState<MyApp> {
         const MapLocale('en', AppLocale.EN),
         const MapLocale('bn', AppLocale.BN),
       ],
-      initLanguageCode: 'en',
+      initLanguageCode: 'bn',
     );
     localization.onTranslatedLanguage = _onTranslatedLanguage;
     super.initState();
